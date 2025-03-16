@@ -116,7 +116,10 @@ const UserList: React.FC<UserListProps> = ({ users }) => {
                           {repo.homepage && (
                             <a href={repo.homepage} target="_blank" rel="noopener noreferrer">
                               <p className="mt-2 text-xs md:text-sm">
-                                Live Preview: <span className="text-blue-600 dark:text-blue-400 hover:text-blue-300 hover:dark:text-blue-200">{repo.homepage}</span>
+                                Live Preview: 
+                                <span className="text-blue-600 dark:text-blue-400 hover:text-blue-300 hover:dark:text-blue-200">
+                                  {handleLimitString(repo.homepage, 40)}
+                                </span>
                               </p>
                             </a>
                           )}
