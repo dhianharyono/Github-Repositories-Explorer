@@ -1,65 +1,44 @@
-# GitHub Repositories Explorer
+# **GitHub Repositories Explorer**  
 
-GitHub Repositories Explorer adalah aplikasi berbasis **React**, **Vite**, **TypeScript**, dan **Tailwind CSS** yang memungkinkan pengguna mencari repositori GitHub dengan mudah dan cepat.
+GitHub Repositories Explorer is a web application built with **React**, **Vite**, **TypeScript**, and **Tailwind CSS**, allowing users to search GitHub repositories quickly and efficiently.  
 
-## 🚀 Fitur Utama
+## 🚀 **Key Features**  
 
-- 🔍 **Pencarian Repositori**: Cari repositori GitHub berdasarkan nama atau kata kunci.
-- 🌙 **Mode Gelap & Terang**: Tersedia fitur dark mode untuk kenyamanan pengguna.
-- 📊 **Detail Repositori**: Lihat informasi penting seperti bintang ⭐, fork 🍴, dan deskripsi repositori.
-- ⚡ **Performa Cepat**: Dibangun dengan **Vite** untuk pengalaman pengguna yang lebih responsif.
-- 🛠 **TypeScript Ready**: Menggunakan TypeScript untuk meningkatkan keamanan dan keterbacaan kode.
-- 🎨 **Tampilan Modern**: Menggunakan Tailwind CSS untuk desain yang elegan dan responsif.
+- 🔍 **Repository Search** – Find GitHub repositories by name or keyword.  
+- 🌙 **Dark & Light Mode** – Supports dark mode for better user experience.  
+- 📊 **Repository Details** – View essential details such as stars ⭐, forks 🍴, and repository descriptions.  
+- ⚡ **Fast Performance** – Built with **Vite** for a smooth and responsive experience.  
+- 🛠 **TypeScript Ready** – Uses TypeScript for better code safety and readability.  
+- 🎨 **Modern UI** – Styled with Tailwind CSS for a sleek and responsive design.  
 
-## 🛠 Teknologi yang Digunakan
+## 🛠 **Technologies Used**  
 
-- [React.js](https://reactjs.org/) – Framework frontend yang cepat dan modular.
-- [Vite](https://vitejs.dev/) – Build tool yang ringan dan super cepat.
-- [TypeScript](https://www.typescriptlang.org/) – Superset dari JavaScript untuk kode yang lebih aman.
-- [Tailwind CSS](https://tailwindcss.com/) – Framework CSS yang fleksibel dan mudah dikustomisasi.
-- [GitHub API](https://docs.github.com/en/rest) – Digunakan untuk mengambil data repositori secara real-time.
+- [React.js](https://reactjs.org/) – A fast and modular frontend framework.  
+- [Vite](https://vitejs.dev/) – A lightweight and super-fast build tool.  
+- [TypeScript](https://www.typescriptlang.org/) – A superset of JavaScript for safer and more structured code.  
+- [Tailwind CSS](https://tailwindcss.com/) – A utility-first CSS framework for easy customization.  
+- [GitHub API](https://docs.github.com/en/rest) – Used to fetch real-time repository data.  
 
-## 📌 Cara Menggunakan
+## 📌 **How to Use**  
 
-### 1️⃣ **Clone repository**
+### 1️⃣ **Clone the Repository**  
 ```sh
 git clone https://github.com/dhianharyono/Github-Repositories-Explorer.git
 cd Github-Repositories-Explorer
 ```
 
-### 2️⃣ **Instal dependensi**
+### 2️⃣ **Install Dependencies**
 ```sh
 npm install
 ```
 
-### 3️⃣ **Jalankan aplikasi**
+### 3️⃣ **Run the Application**
 ```sh
 npm run dev
 ```
 
-### 4️⃣ **Buka di browser**
-Akses aplikasi di `http://localhost:5173` (default Vite)
-
-## 🔧 Konfigurasi Tambahan
-
-### **Menggunakan Token GitHub (Opsional)**
-GitHub memiliki batasan request API. Untuk meningkatkan batas rate limit, gunakan **GitHub Access Token**.
-
-1. **Buat token GitHub** di [GitHub Developer Settings](https://github.com/settings/tokens).
-2. **Tambahkan token ke `.env`**
-   ```sh
-   VITE_GITHUB_TOKEN=your_personal_access_token_here
-   ```
-3. **Gunakan token dalam fetch request** di aplikasi.
-
-## 🤝 Kontribusi
-Pull request dan saran perbaikan selalu diterima! Jika ingin berkontribusi:
-
-1. **Fork** repository ini
-2. **Buat branch baru** (`git checkout -b feature-anda`)
-3. **Lakukan perubahan** dan commit (`git commit -m 'Menambahkan fitur X'`)
-4. **Push ke branch** (`git push origin feature-anda`)
-5. **Buat Pull Request**
+### 4️⃣ **Open in Browser**
+Access the app at `http://localhost:5173` (default Vite URL).
 
 ---
-💙 Dibuat dengan React + TypeScript + Tailwind CSS oleh [Dhian Haryono](https://github.com/dhianharyono)
+💙 Built with React + TypeScript + Tailwind CSS by [Dhian Haryono](https://github.com/dhianharyono)
