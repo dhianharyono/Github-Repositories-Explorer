@@ -19,7 +19,7 @@ const App: React.FC = () => {
             GitHub User Explorer
           </h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-            Search for GitHub users and explore their profiles.
+            Search for GitHub users and explore their repositories.
           </p>
         </div>
         <ThemeSwitcher />
