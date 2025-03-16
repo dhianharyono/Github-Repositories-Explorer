@@ -1,44 +1,65 @@
 # GitHub Repositories Explorer
 
-A simple React application that allows users to search for GitHub users and explore their repositories effortlessly.
+GitHub Repositories Explorer adalah aplikasi berbasis **React**, **Vite**, **TypeScript**, dan **Tailwind CSS** yang memungkinkan pengguna mencari repositori GitHub dengan mudah dan cepat.
 
-## 🚀 Features
-✅ Search for GitHub users (up to 5 results per query)  
-✅ Click a user to expand and view their repositories  
-✅ Display repository details including name, description, stars, and live preview link (if available)  
-✅ Responsive and modern UI built with TailwindCSS  
-✅ Handles offline mode with proper feedback  
+## 🚀 Fitur Utama
 
-## 🛠 Tech Stack
-- **React** (with Hooks)  
-- **TypeScript**  
-- **Vite**  
-- **TailwindCSS**  
+- 🔍 **Pencarian Repositori**: Cari repositori GitHub berdasarkan nama atau kata kunci.
+- 🌙 **Mode Gelap & Terang**: Tersedia fitur dark mode untuk kenyamanan pengguna.
+- 📊 **Detail Repositori**: Lihat informasi penting seperti bintang ⭐, fork 🍴, dan deskripsi repositori.
+- ⚡ **Performa Cepat**: Dibangun dengan **Vite** untuk pengalaman pengguna yang lebih responsif.
+- 🛠 **TypeScript Ready**: Menggunakan TypeScript untuk meningkatkan keamanan dan keterbacaan kode.
+- 🎨 **Tampilan Modern**: Menggunakan Tailwind CSS untuk desain yang elegan dan responsif.
 
-## 📥 Installation & Setup
-Follow these steps to run the project locally:
+## 🛠 Teknologi yang Digunakan
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/your-username/github-repos-explorer.git
-   cd github-repos-explorer
+- [React.js](https://reactjs.org/) – Framework frontend yang cepat dan modular.
+- [Vite](https://vitejs.dev/) – Build tool yang ringan dan super cepat.
+- [TypeScript](https://www.typescriptlang.org/) – Superset dari JavaScript untuk kode yang lebih aman.
+- [Tailwind CSS](https://tailwindcss.com/) – Framework CSS yang fleksibel dan mudah dikustomisasi.
+- [GitHub API](https://docs.github.com/en/rest) – Digunakan untuk mengambil data repositori secara real-time.
+
+## 📌 Cara Menggunakan
+
+### 1️⃣ **Clone repository**
+```sh
+git clone https://github.com/dhianharyono/Github-Repositories-Explorer.git
+cd Github-Repositories-Explorer
+```
+
+### 2️⃣ **Instal dependensi**
+```sh
+npm install
+```
+
+### 3️⃣ **Jalankan aplikasi**
+```sh
+npm run dev
+```
+
+### 4️⃣ **Buka di browser**
+Akses aplikasi di `http://localhost:5173` (default Vite)
+
+## 🔧 Konfigurasi Tambahan
+
+### **Menggunakan Token GitHub (Opsional)**
+GitHub memiliki batasan request API. Untuk meningkatkan batas rate limit, gunakan **GitHub Access Token**.
+
+1. **Buat token GitHub** di [GitHub Developer Settings](https://github.com/settings/tokens).
+2. **Tambahkan token ke `.env`**
+   ```sh
+   VITE_GITHUB_TOKEN=your_personal_access_token_here
    ```
+3. **Gunakan token dalam fetch request** di aplikasi.
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+## 🤝 Kontribusi
+Pull request dan saran perbaikan selalu diterima! Jika ingin berkontribusi:
 
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
+1. **Fork** repository ini
+2. **Buat branch baru** (`git checkout -b feature-anda`)
+3. **Lakukan perubahan** dan commit (`git commit -m 'Menambahkan fitur X'`)
+4. **Push ke branch** (`git push origin feature-anda`)
+5. **Buat Pull Request**
 
-4. Open your browser and navigate to `http://localhost:5173/`
-
-## 🔗 Live Demo
-Check out the live version: [GitHub Repositories Explorer](https://your-live-demo-link.vercel.app)
-
-## 📄 License
-This project is licensed under the MIT License.
-
+---
+💙 Dibuat dengan React + TypeScript + Tailwind CSS oleh [Dhian Haryono](https://github.com/dhianharyono)
