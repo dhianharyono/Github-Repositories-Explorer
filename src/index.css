@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pastikan warna latar belakang berubah dalam mode gelap */
+body {
+  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
